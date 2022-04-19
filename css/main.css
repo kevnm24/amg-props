@@ -160,8 +160,16 @@ footer a:hover {
   margin: 0 0 32px 0;
 }
 
-.hero-bg input[type="button"],
-.collapse button {
+.hero-bg input[type="button"] {
+  background-color: var(--primary1);
+  border: none;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-btn {
   background-color: var(--primary1);
   border: none;
   color: #ffffff;
