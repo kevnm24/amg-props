@@ -366,19 +366,18 @@ footer a:hover {
 }
 
 /* partners */
+.partners .container-fluid .row {
+  align-items: center;
+}
+
 .partners {
   position: relative;
   margin: 50px 0 100px 0;
 }
 
 .square-holder {
-  padding: 30px;
-  align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 15%;
   margin-bottom: 20px;
-  min-height: 200px;
 }
 
 .square-holder img {
@@ -651,7 +650,7 @@ path:hover {
 
   /* Partners */
   .partners {
-    margin: 100px 5% 100px 5%;
+    margin: 100px 7% 100px 7%;
   }
 
   /* Contact */
